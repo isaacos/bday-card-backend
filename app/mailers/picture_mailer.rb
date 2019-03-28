@@ -1,5 +1,5 @@
 class PictureMailer < ApplicationMailer
-  default from: ''
+  default from: 'katysbdaywebsite@gmail.com'
 
   def send_pic(picture)
 
