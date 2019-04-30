@@ -1,7 +1,7 @@
 ---
 development:
   cloud_name: dimg8ubwn
-  api_key: '227454717272356'
+  api_key: '227454717272356' 
   api_secret: osMQqxCvAakRxzen5CcXandHylw
   enhance_image_tag: true
   static_file_support: false
