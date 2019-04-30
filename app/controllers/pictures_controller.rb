@@ -8,7 +8,9 @@ class PicturesController < ApplicationController
   def mail
     @picture = Picture.create(picture_params)
     @picture.url = uploadToCloudinary(@picture.url)
+
     PictureMailer.send_pic(@picture).deliver_now
+    render json: @picture
   end
 
   private

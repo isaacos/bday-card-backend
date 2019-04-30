@@ -4,6 +4,6 @@ class PictureMailer < ApplicationMailer
   def send_pic(picture)
 
     @picture = picture
-    mail(to: @picture.email, subject: 'Test')
+    mail(to: @picture.email, subject: 'Happy Birthday!')
   end
 end
