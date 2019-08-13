@@ -48,4 +48,4 @@ gem "figaro", "~> 1.1"
 
 gem 'cloudinary'
 
-# gem 'sqlite3'
+gem 'sqlite3'
